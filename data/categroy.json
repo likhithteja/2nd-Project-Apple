@@ -1,19 +1,227 @@
 {
-  "posts": [
+  "Mac": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Mac Book",
+      "body": "Don't take it lightly"
     }
   ],
-  "comments": [
+  "iPad": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "body": "Introducing the all‑new iPad and iPad Pro",
+      "title": "iPad",
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "iPhone": [
+    {
+      "id": 3,
+      "body": "The Ultimate iPhones",
+      "title": "iPhpone",
+    }
+  ],
+  "Watch": [
+    {
+      "id": 4,
+      "body": "A healthy leap ahead.",
+      "title": "Apple Watch",
+    }
+  ],
+  "AirPods": [
+    {
+      "id": 5,
+      "body": "A magical connection to your devices.",
+      "title": "AirPods",
+    }
+  ]
 }
+
+[
+    {
+        "id": 1,
+        "product_name": "MacBook Air",
+        "category_id": 1,
+        "Image": "#",
+        "Price": "From ₹99900.00",
+    },
+    {
+        "id": 2,
+        "product_name": "MacBook Pro",
+        "category_id": 1,
+        "Image": "#",
+        "Price": "From ₹109900.00",
+    },
+    {
+        "id": 3,
+        "product_name": "iMac 24",
+        "category_id": 1,
+        "Image": "#",
+        "Price": "From ₹119900.00",
+    },
+    {
+        "id": 4,
+        "product_name": "Mac Mini",
+        "category_id": 1,
+        "Image": "#",
+        "Price": "From ₹129900.00*",
+    },
+    {
+        "id": 5,
+        "product_name": "Mac Studio",
+        "category_id": 1,
+        "Image": "#",
+        "Price": "₹194900.00",
+    },
+]
+
+[
+    {
+        "id": 1,
+        "product_name": "iPad Pro",
+        "category_id": 2,
+        "Image": "#",
+        "Price": "From ₹81900.00",
+    },
+    {
+        "id": 2,
+        "product_name": "iPad Air",
+        "category_id": 2,
+        "Image": "#",
+        "Price": "From ₹59900.00",
+    },
+    {
+        "id": 3,
+        "product_name": "iPad 10th generation",
+        "category_id": 2,
+        "Image": "#",
+        "Price": "From ₹44900.00",
+    },
+    {
+        "id": 4,
+        "product_name": "iPad 9th generation",
+        "category_id": 2,
+        "Image": "#",
+        "Price": "From ₹33900.00",
+    },
+    {
+        "id": 5,
+        "product_name": "iPad mini",
+        "category_id": 2,
+        "Image": "#",
+        "Price": "From ₹49900.00",
+    },
+]
+
+[
+    {
+        "id": 1,
+        "product_name": "iphone 14 Pro",
+        "category_id": 3,
+        "Image": "#",
+        "Price": "From ₹129900.00",
+    },
+    {
+        "id": 2,
+        "product_name": "iphone 14",
+        "category_id": 3,
+        "Image": "#",
+        "Price": "From ₹79900.00",
+    },
+    {
+        "id": 3,
+        "product_name": "iphone 13",
+        "category_id": 3,
+        "Image": "#",
+        "Price": "From ₹64900.00",
+    },
+    {
+        "id": 4,
+        "product_name": "iphone SE",
+        "category_id": 3,
+        "Image": "#",
+        "Price": "From ₹49900.00",
+    },
+    {
+        "id": 5,
+        "product_name": "iphone 12",
+        "category_id": 3,
+        "Image": "#",
+        "Price": "₹44500.00",
+    },
+]
+
+[
+    {
+        "id": 1,
+        "product_name": "Apple Watch Ultra",
+        "category_id": 4,
+        "Image": "#",
+        "Price": "From ₹89900.00",
+    },
+    {
+        "id": 2,
+        "product_name": "Apple Watch Series 8",
+        "category_id": 4,
+        "Image": "#",
+        "Price": "From ₹45900.00",
+    },
+    {
+        "id": 3,
+        "product_name": "Apple Watch Series SE",
+        "category_id": 4,
+        "Image": "#",
+        "Price": "From ₹29900.00",
+    },
+    {
+        "id": 4,
+        "product_name": "Apple Watch Nike",
+        "category_id": 4,
+        "Image": "#",
+        "Price": "Free :)",
+    },
+    {
+        "id": 5,
+        "product_name": "Watch Straps",
+        "category_id": 4,
+        "Image": "#",
+        "Price": "From ₹9500.00",
+    },
+]
+
+[
+    {
+        "id": 1,
+        "product_name": "AirPods 2nd generation",
+        "category_id": 5,
+        "Image": "#",
+        "Price": "From ₹14900.00",
+    },
+    {
+        "id": 2,
+        "product_name": "AirPods 3nd generation",
+        "category_id": 5,
+        "Image": "#",
+        "Price": "From ₹19900.00",
+    },
+    {
+        "id": 3,
+        "product_name": "AirPods Pro",
+        "category_id": 5,
+        "Image": "#",
+        "Price": "From ₹26900.00",
+    },
+    {
+        "id": 4,
+        "product_name": "AirPods Max",
+        "category_id": 5,
+        "Image": "#",
+        "Price": "From ₹59900.00",
+    },
+    {
+        "id": 5,
+        "product_name": "AirPods Pro",
+        "category_id": 5,
+        "Image": "#",
+        "Price": "₹19900.00",
+    },
+]
