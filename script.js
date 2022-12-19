@@ -14,3 +14,18 @@ const popup = document.querySelector('.Coupon-main-div');
             popup.classList.remove('showPopup');
             popup.childNodes[1].classList.remove('showPopup');
         })
+
+
+const successCallback = (position) => {
+    console.log(position);
+};
+
+const errorCallback = (error) => {
+    console.error(error);
+};
+
+
+navigator.geolocation.getCurrentPosition(successCallback, errorCallback, {
+    enableHighAccuracy: true,
+    timeout: 5000,
+});
